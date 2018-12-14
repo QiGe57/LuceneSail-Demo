@@ -35,7 +35,6 @@ public class LoadNativeIndex {
 		lucenesail.setParameter(LuceneSail.LUCENE_DIR_KEY, "true");
 		// set this parameter to store the lucene index on disk
 		// lucenesail.setParameter(LuceneSail.LUCENE_DIR_KEY, "./data/mydirectory");
- 
 		// wrap memorystore in a lucenesail
 		lucenesail.setBaseSail(myStore);
 		// create a Repository to access the sails
@@ -47,10 +46,10 @@ public class LoadNativeIndex {
 			 // connection.setAutoCommit(false);
 			 // System.out.println(System.getProperty("user.dir"));   
 			 String file_path = "/"; // 数据的路径
-       File file = new File(file_path);
+                         File file = new File(file_path);
 			 System.out.println(file.exists());
-       connection.add(file, "", RDFFormat.NTRIPLES);	  // 这里需要改成和数据格式对应
-       // .n3 -> RDFFormat.N3      .nt -> RDFFormat.NTRIPLES    .rdf -> RDFFormat.RDFXML
+                         connection.add(file, "", RDFFormat.NTRIPLES);	  // 这里需要改成和数据格式对应
+                        // .n3 -> RDFFormat.N3      .nt -> RDFFormat.NTRIPLES    .rdf -> RDFFormat.RDFXML
 			connection.commit();
 			System.out.println("------ 指数文件已生成 -----");
 		} finally {

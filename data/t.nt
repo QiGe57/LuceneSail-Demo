@@ -1,0 +1,117 @@
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wgs84_pos: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+
+<http://sws.geonames.org/3038814/> a gn:Feature ;
+	rdfs:isDefinedBy "http://sws.geonames.org/3038814/about.rdf" ;
+	gn:name "Costa de Xurius" ;
+	gn:featureClass gn:T ;
+	gn:featureCode <http://www.geonames.org/ontology#T.SLP> ;
+	gn:countryCode "AD" ;
+	wgs84_pos:lat "42.5" ;
+	wgs84_pos:long "1.48333" ;
+	gn:parentFeature <http://sws.geonames.org/3041565/> ;
+	gn:parentCountry <http://sws.geonames.org/3041565/> ;
+	gn:nearbyFeatures <http://sws.geonames.org/3038814/nearby.rdf> ;
+	gn:locationMap <http://www.geonames.org/3038814/costa-de-xurius.html> .
+
+<http://sws.geonames.org/3038815/> a gn:Feature ;
+	rdfs:isDefinedBy "http://sws.geonames.org/3038815/about.rdf" ;
+	gn:name "Font de la Xona" ;
+	gn:featureClass gn:H ;
+	gn:featureCode <http://www.geonames.org/ontology#H.SPNG> ;
+	gn:countryCode "AD" ;
+	wgs84_pos:lat "42.55003" ;
+	wgs84_pos:long "1.44986" ;
+	gn:parentFeature <http://sws.geonames.org/3040131/> ;
+	gn:parentCountry <http://sws.geonames.org/3041565/> ;
+	gn:parentADM1 <http://sws.geonames.org/3040131/> ;
+	gn:nearbyFeatures <http://sws.geonames.org/3038815/nearby.rdf> ;
+	gn:locationMap <http://www.geonames.org/3038815/font-de-la-xona.html> .
+
+<http://sws.geonames.org/3038816/> a gn:Feature ;
+	rdfs:isDefinedBy "http://sws.geonames.org/3038816/about.rdf" ;
+	gn:name "Xixerella" ;
+	gn:featureClass gn:P ;
+	gn:featureCode <http://www.geonames.org/ontology#P.PPL> ;
+	gn:countryCode "AD" ;
+	wgs84_pos:lat "42.55327" ;
+	wgs84_pos:long "1.48736" ;
+	gn:parentFeature <http://sws.geonames.org/3040131/> ;
+	gn:parentCountry <http://sws.geonames.org/3041565/> ;
+	gn:parentADM1 <http://sws.geonames.org/3040131/> ;
+	gn:nearbyFeatures <http://sws.geonames.org/3038816/nearby.rdf> ;
+	gn:locationMap <http://www.geonames.org/3038816/xixerella.html> .
+
+<http://sws.geonames.org/3038817/> a gn:Feature ;
+	rdfs:isDefinedBy "http://sws.geonames.org/3038817/about.rdf" ;
+	gn:name "Xixerella" ;
+	gn:alternateName "Xixerella" ;
+	gn:featureClass gn:A ;
+	gn:featureCode <http://www.geonames.org/ontology#A.ADMD> ;
+	gn:countryCode "AD" ;
+	wgs84_pos:lat "42.55" ;
+	wgs84_pos:long "1.48333" ;
+	gn:parentFeature <http://sws.geonames.org/3041565/> ;
+	gn:parentCountry <http://sws.geonames.org/3041565/> ;
+	gn:childrenFeatures <http://sws.geonames.org/3038817/contains.rdf> ;
+	gn:locationMap <http://www.geonames.org/3038817/xixerella.html> ;
+	gn:wikipediaArticle <http://en.wikipedia.org/wiki/Xixerella> ;
+	owl:sameAs <http://dbpedia.org/resource/Xixerella> .
+
+<http://sws.geonames.org/3038818/> a gn:Feature ;
+	rdfs:isDefinedBy "http://sws.geonames.org/3038818/about.rdf" ;
+	gn:name "Riu Xic" ;
+	gn:featureClass gn:H ;
+	gn:featureCode <http://www.geonames.org/ontology#H.STM> ;
+	gn:countryCode "AD" ;
+	wgs84_pos:lat "42.56667" ;
+	wgs84_pos:long "1.68333" ;
+	gn:parentFeature <http://sws.geonames.org/3041565/> ;
+	gn:parentCountry <http://sws.geonames.org/3041565/> ;
+	gn:nearbyFeatures <http://sws.geonames.org/3038818/nearby.rdf> ;
+	gn:locationMap <http://www.geonames.org/3038818/riu-xic.html> .
+
+<http://sws.geonames.org/3038819/> a gn:Feature ;
+	rdfs:isDefinedBy "http://sws.geonames.org/3038819/about.rdf" ;
+	gn:name "Pas del Xic" ;
+	gn:featureClass gn:R ;
+	gn:featureCode <http://www.geonames.org/ontology#R.TRL> ;
+	gn:countryCode "AD" ;
+	wgs84_pos:lat "42.5" ;
+	wgs84_pos:long "1.58333" ;
+	gn:parentFeature <http://sws.geonames.org/3041565/> ;
+	gn:parentCountry <http://sws.geonames.org/3041565/> ;
+	gn:nearbyFeatures <http://sws.geonames.org/3038819/nearby.rdf> ;
+	gn:locationMap <http://www.geonames.org/3038819/pas-del-xic.html> .
+
+<http://sws.geonames.org/3038820/> a gn:Feature ;
+	rdfs:isDefinedBy "http://sws.geonames.org/3038820/about.rdf" ;
+	gn:name "Roc del Xeig" ;
+	gn:featureClass gn:T ;
+	gn:featureCode <http://www.geonames.org/ontology#T.RK> ;
+	gn:countryCode "AD" ;
+	wgs84_pos:lat "42.56667" ;
+	wgs84_pos:long "1.48333" ;
+	gn:parentFeature <http://sws.geonames.org/3041565/> ;
+	gn:parentCountry <http://sws.geonames.org/3041565/> ;
+	gn:nearbyFeatures <http://sws.geonames.org/3038820/nearby.rdf> ;
+	gn:locationMap <http://www.geonames.org/3038820/roc-del-xeig.html> .
+
+<http://sws.geonames.org/3038821/> a gn:Feature ;
+	rdfs:isDefinedBy "http://sws.geonames.org/3038821/about.rdf" ;
+	gn:name "Collada del Xeig" ;
+	gn:featureClass gn:T ;
+	gn:featureCode <http://www.geonames.org/ontology#T.PK> ;
+	gn:countryCode "AD" ;
+	wgs84_pos:lat "42.56667" ;
+	wgs84_pos:long "1.48333" ;
+	gn:parentFeature <http://sws.geonames.org/3041565/> ;
+	gn:parentCountry <http://sws.geonames.org/3041565/> ;
+	gn:nearbyFeatures <http://sws.geonames.org/3038821/nearby.rdf> ;
+	gn:locationMap <http://www.geonames.org/3038821/collada-del-xeig.html> .

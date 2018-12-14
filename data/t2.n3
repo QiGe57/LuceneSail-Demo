@@ -1,0 +1,36 @@
+<http://bio2rdf.org/cpd:C00001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://bio2rdf.org/ns/kegg#Compound> .
+<http://bio2rdf.org/cpd:C00001> <http://www.w3.org/2000/01/rdf-schema#label> "H2O [cpd:C00001]" .
+<http://bio2rdf.org/cpd:C00001> <http://purl.org/dc/elements/1.1/identifier> "cpd:C00001" .
+<http://bio2rdf.org/cpd:C00001> <http://purl.org/dc/elements/1.1/title> "H2O" .
+<http://bio2rdf.org/cpd:C00001> <http://bio2rdf.org/ns/bio2rdf#url> "http://www.genome.jp/dbget-bin/www_bget?cpd:C00001" .
+<http://bio2rdf.org/cpd:C00001> <http://bio2rdf.org/ns/bio2rdf#urlImage> "http://www.genome.jp/Fig/compound/C00001.gif" .
+<http://bio2rdf.org/cpd:C00001> <http://www.w3.org/2002/07/owl#sameAs> <http://bio2rdf.org/cpd:C00001> .
+<http://bio2rdf.org/cpd:C00001> <http://bio2rdf.org/ns/bio2rdf#synonym> "Water" .
+<http://bio2rdf.org/cpd:C00001> <http://bio2rdf.org/ns/bio2rdf#formula> "H2O" .
+<http://bio2rdf.org/cpd:C00001> <http://bio2rdf.org/ns/bio2rdf#mass> "18.0106" .
+<http://bio2rdf.org/cpd:C00001> <http://bio2rdf.org/ns/bio2rdf#xRef> <http://bio2rdf.org/therapeuticCategory:REACTION> .
+<http://bio2rdf.org/cpd:C00001> <http://bio2rdf.org/ns/bio2rdf#xRef> <http://bio2rdf.org/cas:7732-18-5> .
+<http://bio2rdf.org/cpd:C00001> <http://bio2rdf.org/ns/bio2rdf#xRef> <http://bio2rdf.org/pubchem:3303> .
+<http://bio2rdf.org/cpd:C00001> <http://bio2rdf.org/ns/bio2rdf#xRef> <http://bio2rdf.org/chebi:15377> .
+<http://bio2rdf.org/cpd:C00001> <http://bio2rdf.org/ns/bio2rdf#xRef> <http://bio2rdf.org/pdb-ccd:HOH> .
+<http://bio2rdf.org/cpd:C00001> <http://bio2rdf.org/ns/bio2rdf#xRef> <http://bio2rdf.org/3dmet:B01124> .
+<http://bio2rdf.org/cpd:C00002> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://bio2rdf.org/ns/kegg#Compound> .
+<http://bio2rdf.org/cpd:C00002> <http://www.w3.org/2000/01/rdf-schema#label> "ATP [cpd:C00002]" .
+<http://bio2rdf.org/cpd:C00002> <http://purl.org/dc/elements/1.1/identifier> "cpd:C00002" .
+<http://bio2rdf.org/cpd:C00002> <http://purl.org/dc/elements/1.1/title> "ATP" .
+<http://bio2rdf.org/cpd:C00002> <http://bio2rdf.org/ns/bio2rdf#url> "http://www.genome.jp/dbget-bin/www_bget?cpd:C00002" .
+<http://bio2rdf.org/cpd:C00002> <http://bio2rdf.org/ns/bio2rdf#urlImage> "http://www.genome.jp/Fig/compound/C00002.gif" .
+<http://bio2rdf.org/cpd:C00002> <http://www.w3.org/2002/07/owl#sameAs> <http://bio2rdf.org/cpd:C00002> .
+<http://bio2rdf.org/cpd:C00002> <http://bio2rdf.org/ns/bio2rdf#synonym> "Adenosine5'-triphosphate" .
+<http://bio2rdf.org/cpd:C00002> <http://bio2rdf.org/ns/bio2rdf#formula> "C10H16N5O13P3" .
+<http://bio2rdf.org/cpd:C00002> <http://bio2rdf.org/ns/bio2rdf#mass> "506.9957" .
+<http://bio2rdf.org/cpd:C00002> <http://bio2rdf.org/ns/bio2rdf#xRef> <http://bio2rdf.org/cas:56-65-5> .
+<http://bio2rdf.org/cpd:C00002> <http://bio2rdf.org/ns/bio2rdf#xRef> <http://bio2rdf.org/pubchem:3304> .
+<http://bio2rdf.org/cpd:C00002> <http://bio2rdf.org/ns/bio2rdf#xRef> <http://bio2rdf.org/chebi:15422> .
+<http://bio2rdf.org/cpd:C00002> <http://bio2rdf.org/ns/bio2rdf#xRef> <http://bio2rdf.org/knapsack:C00001491> .
+<http://bio2rdf.org/cpd:C00002> <http://bio2rdf.org/ns/bio2rdf#xRef> <http://bio2rdf.org/pdb-ccd:ATP> .
+<http://bio2rdf.org/cpd:C00002> <http://bio2rdf.org/ns/bio2rdf#xRef> <http://bio2rdf.org/3dmet:B01125> .
+<http://bio2rdf.org/cpd:C00003> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://bio2rdf.org/ns/kegg#Compound> .
+<http://bio2rdf.org/cpd:C00003> <http://www.w3.org/2000/01/rdf-schema#label> "NAD+ [cpd:C00003]" .
+<http://bio2rdf.org/cpd:C00003> <http://purl.org/dc/elements/1.1/identifier> "cpd:C00003" .
+<http://bio2rdf.org/cpd:C00003> <http://purl.org/dc/elements/1.1/title> "NAD+" .

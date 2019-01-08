@@ -1,6 +1,6 @@
 # LuceneSail-loading-data
 
-## Loding data
+## Loading data
 
 ``` LoadMemoryIndex.java ```   基于memoryStore生成索引  
 

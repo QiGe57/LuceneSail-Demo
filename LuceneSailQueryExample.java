@@ -33,12 +33,13 @@ public class LuceneSailQueryExample {
 	 * Create a LuceneSail and add some triples to it, ask a query.
 	 */
 	public static void createSimple(String keyword) throws Exception {
-		// create a sesame memory sail		
- 		File dataDir = new File("C:\\chebi");  // 导入索引的路径
+		// create a sesame native sail	
+		String indexPath = "C:\\chebi";
+ 		File dataDir = new File(indexPath);  // 导入索引的路径
 		NativeStore myStore = new NativeStore(dataDir);
  
 		LuceneSail lucenesail = new LuceneSail();
-		lucenesail.setParameter(LuceneSail.LUCENE_DIR_KEY, "true");
+		lucenesail.setParameter(LuceneSail.LUCENE_DIR_KEY, indexPath);
 	 
 		lucenesail.setBaseSail(myStore);
 

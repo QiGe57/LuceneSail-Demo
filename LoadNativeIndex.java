@@ -32,9 +32,9 @@ public class LoadNativeIndex {
 		// create a lucenesail to wrap the memorystore
 		LuceneSail lucenesail = new LuceneSail();
 		// set this parameter to let the lucene index store its data in ram
-		lucenesail.setParameter(LuceneSail.LUCENE_DIR_KEY, "true");
+		lucenesail.setParameter(LuceneSail.LUCENE_DIR_KEY, index_path);
 		// set this parameter to store the lucene index on disk
-		// lucenesail.setParameter(LuceneSail.LUCENE_DIR_KEY, "./data/mydirectory");
+		 
 		// wrap memorystore in a lucenesail
 		lucenesail.setBaseSail(myStore);
 		// create a Repository to access the sails
@@ -51,7 +51,7 @@ public class LoadNativeIndex {
                          connection.add(file, "", RDFFormat.NTRIPLES);	  // 这里需要改成和数据格式对应
                         // .n3 -> RDFFormat.N3      .nt -> RDFFormat.NTRIPLES    .rdf -> RDFFormat.RDFXML
 			connection.commit();
-			System.out.println("------ 指数文件已生成 -----");
+			System.out.println("------ 已生成 -----");
 		} finally {
 			connection.close();
 			repository.shutDown();
